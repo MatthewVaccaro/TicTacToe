@@ -1,0 +1,67 @@
+#root,
+body,
+html {
+	background: #333;
+}
+
+.main {
+	width: 870px;
+	margin: 150px auto;
+}
+
+.board {
+	width: 870px;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.space {
+	background: white;
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+	transition: all 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hoverSpace:hover {
+	filter: brightness(90%);
+	border-radius: 6px;
+	transform: scale(1.1);
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.hide {
+	opacity: 0%;
+	transition: all 5.s;
+}
+
+.show {
+	opacity: 100%;
+	transition: all 5.s;
+}
+
+button {
+	width: 830px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 22px;
+	padding: 20px;
+	border-radius: 6px;
+	border: none;
+	color: #333;
+	font-weight: bold;
+	transition: all 0.5s;
+}
+
+button:hover {
+	filter: brightness(90%);
+	border-radius: 6px;
+	transform: scale(1.05);
+}
